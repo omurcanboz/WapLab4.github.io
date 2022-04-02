@@ -1,0 +1,73 @@
+body {
+    background-color: aliceblue;
+    width: 70%;
+}
+.container {
+    width: 49%;
+    float: left;
+}
+.child {
+    padding-bottom: 15px;
+}
+
+.child .name {
+    width: 49%;
+    float: left;
+    padding-bottom: 10px;
+}
+.child .inp {
+    width: 49%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.require:after {
+    content: "*";
+    color: red;
+    font-weight: bold;
+}
+
+#state {
+    width: 47%;
+}
+
+p{
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.mainForm{
+    width: 100%;
+
+
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    background-color: blanchedalmond;
+}
+
+#form {
+    border: 1px solid;
+}
+
+.need {
+    padding-left: 45%;
+}
+
+.bt{
+    float: left;
+    margin-left: 5px;
+}
+
+.header {
+    background-color: green;
+    display: flex;
+}
+
+#meal {
+    width: 47%;
+}
+
